@@ -1,0 +1,3 @@
+[submodule "Packages/git.bbpackage"]
+	path = Packages/git.bbpackage
+	url = https://github.com/rwilcox/git.bbpackage.git
