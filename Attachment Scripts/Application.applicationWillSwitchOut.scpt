@@ -1,0 +1,1 @@
+../external/applicationwillswitchout/Application.applicationWillSwitchOut.scpt

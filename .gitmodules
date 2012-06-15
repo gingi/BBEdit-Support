@@ -1,3 +1,6 @@
 [submodule "Packages/git.bbpackage"]
 	path = Packages/git.bbpackage
 	url = https://github.com/rwilcox/git.bbpackage.git
+[submodule "external/applicationwillswitchout"]
+	path = external/applicationwillswitchout
+	url = git://gist.github.com/1287814.git
