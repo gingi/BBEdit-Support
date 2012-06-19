@@ -4,3 +4,6 @@
 [submodule "external/applicationwillswitchout"]
 	path = external/applicationwillswitchout
 	url = git://gist.github.com/1287814.git
+[submodule "external/indentedcomments"]
+	path = external/indentedcomments
+	url = git://gist.github.com/2951789.git
