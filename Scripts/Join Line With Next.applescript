@@ -1,7 +1,7 @@
 tell application "BBEdit"
 	tell window 1
 		set currentLine to endLine of selection
-		set nextLine to lastLine + 1
+		set nextLine to currentLine + 1
 		
 		-- Delete starting after the last non-whitespace character in the current line
 		set findDeleteStart to find "\\s*$" options {search mode:grep} Â
@@ -9,7 +9,7 @@ tell application "BBEdit"
 		if found of findDeleteStart then
 			set firstCharacter to characterOffset of found object of findDeleteStart
 		else
-			set firstCharacter to characterOffset of line lastLine
+			set firstCharacter to characterOffset of line currentLine
 		end if
 		
 		-- Delete until the first non-whitespace character in the next line
